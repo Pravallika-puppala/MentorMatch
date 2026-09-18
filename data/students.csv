@@ -1,0 +1,31 @@
+student_id,name,career_goal,skills,interests,experience_level,preferred_industry,availability
+S001,Ananya,AI Engineer,"Python,ML,SQL","AI,Startups",Beginner,Technology,Weekends
+S002,Riya,Data Scientist,"Python,Pandas,SQL","Data,AI",Intermediate,Technology,Weekdays
+S003,Arjun,Software Engineer,"Python,Java,Git","Backend,Cloud",Intermediate,Technology,Weekends
+S004,Meera,Product Manager,"SQL,Excel,Communication","Products,Startups",Beginner,Technology,Weekdays
+S005,Karan,ML Engineer,"Python,ML,Scikit-learn","AI,Research",Intermediate,Technology,Weekends
+S006,Ishita,Data Analyst,"SQL,Excel,Power BI","Data,Business",Beginner,Finance,Weekdays
+S007,Rohit,Backend Engineer,"Python,FastAPI,SQL","Backend,APIs",Intermediate,Technology,Weekends
+S008,Sneha,UX Designer,"Figma,UI Design,Research","Design,Products",Intermediate,Technology,Weekdays
+S009,Aditya,Cloud Engineer,"Python,AWS,Linux","Cloud,DevOps",Beginner,Technology,Weekends
+S010,Priya,Cybersecurity Analyst,"Python,Linux,Networking","Security,Technology",Intermediate,Technology,Weekdays
+S011,Vivek,AI Engineer,"Python,Deep Learning,TensorFlow","AI,Research",Advanced,Technology,Weekends
+S012,Nisha,Business Analyst,"SQL,Excel,Power BI","Business,Data",Intermediate,Finance,Weekdays
+S013,Varun,Software Engineer,"Java,Python,Git","Backend,Cloud",Beginner,Technology,Weekends
+S014,Aisha,Product Designer,"Figma,UI Design,Prototyping","Design,Startups",Beginner,Technology,Weekends
+S015,Manish,Data Scientist,"Python,ML,Statistics","Data,Research",Advanced,Healthcare,Weekdays
+S016,Divya,AI Engineer,"Python,LangChain,ML","AI,Startups",Intermediate,Technology,Weekends
+S017,Akash,DevOps Engineer,"Docker,AWS,Linux","Cloud,DevOps",Intermediate,Technology,Weekdays
+S018,Pooja,Product Manager,"SQL,Analytics,Communication","Products,Startups",Intermediate,Technology,Weekends
+S019,Nikhil,Full Stack Developer,"JavaScript,React,Node.js","Web,Startups",Intermediate,Technology,Weekends
+S020,Sanjana,Data Analyst,"Python,SQL,Tableau","Data,Business",Beginner,Finance,Weekdays
+S021,Rahul,ML Engineer,"Python,PyTorch,ML","AI,Research",Advanced,Technology,Weekends
+S022,Keerthi,UX Designer,"Figma,User Research,UI Design","Design,Technology",Intermediate,Technology,Weekdays
+S023,Harsh,Cybersecurity Engineer,"Linux,Networking,Python","Security,Cloud",Beginner,Technology,Weekends
+S024,Lavanya,Business Analyst,"SQL,Excel,Power BI","Business,Products",Intermediate,Finance,Weekdays
+S025,Tejas,Backend Engineer,"Python,FastAPI,PostgreSQL","Backend,APIs",Advanced,Technology,Weekends
+S026,Swathi,AI Researcher,"Python,ML,Statistics","AI,Research",Advanced,Healthcare,Weekdays
+S027,Abhishek,Cloud Engineer,"AWS,Docker,Python","Cloud,DevOps",Intermediate,Technology,Weekends
+S028,Neha,Product Manager,"SQL,Analytics,Communication","Products,AI",Beginner,Technology,Weekdays
+S029,Varsha,Software Engineer,"Java,Spring,SQL","Backend,Enterprise",Intermediate,Technology,Weekends
+S030,Surya,Data Scientist,"Python,Pandas,ML","Data,AI",Beginner,Healthcare,Weekdays

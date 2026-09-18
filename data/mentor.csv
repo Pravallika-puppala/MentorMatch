@@ -1,0 +1,31 @@
+mentor_id,name,current_role,experience_years,skills,interests,industry,availability
+M001,Rahul,ML Engineer,5,"Python,ML,AWS","AI,Research",Technology,Weekends
+M002,Priya,Senior Data Scientist,7,"Python,Pandas,SQL,ML","Data,AI",Technology,Weekdays
+M003,Vikram,Senior Software Engineer,8,"Python,Java,Git,AWS","Backend,Cloud",Technology,Weekends
+M004,Neha,Product Manager,6,"SQL,Excel,Communication","Products,Startups",Technology,Weekdays
+M005,Aditya,AI Engineer,3,"Python,ML,LangChain","AI,Startups",Technology,Weekends
+M006,Sneha,Business Analyst,5,"SQL,Excel,Power BI","Data,Products",Finance,Weekdays
+M007,Karthik,Backend Engineer,6,"Python,FastAPI,PostgreSQL","Backend,APIs",Technology,Weekends
+M008,Aarav,UX Designer,5,"Figma,UI Design,Research","Design,Products",Technology,Weekdays
+M009,Swathi,Cloud Engineer,7,"Python,AWS,Linux,Docker","Cloud,DevOps",Technology,Weekends
+M010,Manoj,Cybersecurity Analyst,6,"Python,Linux,Networking","Security,Technology",Technology,Weekdays
+M011,Divya,Senior AI Engineer,8,"Python,Deep Learning,TensorFlow","AI,Research",Technology,Weekends
+M012,Arjun,Business Analyst,4,"SQL,Excel,Power BI","Business,Data",Finance,Weekdays
+M013,Rohan,Software Engineer,5,"Java,Python,Git","Backend,Cloud",Technology,Weekends
+M014,Isha,Product Designer,6,"Figma,UI Design,Prototyping","Design,Startups",Technology,Weekends
+M015,Manish,Data Scientist,9,"Python,ML,Statistics","Data,Research",Healthcare,Weekdays
+M016,Pooja,AI Engineer,4,"Python,LangChain,ML","AI,Startups",Technology,Weekends
+M017,Varun,DevOps Engineer,6,"Docker,AWS,Linux","Cloud,DevOps",Technology,Weekdays
+M018,Aisha,Product Manager,8,"SQL,Analytics,Communication","Products,Startups",Technology,Weekends
+M019,Harsh,Full Stack Engineer,5,"JavaScript,React,Node.js","Web,Startups",Technology,Weekends
+M020,Lavanya,Data Analyst,4,"Python,SQL,Tableau","Data,Business",Finance,Weekdays
+M021,Akash,ML Engineer,7,"Python,PyTorch,ML","AI,Research",Technology,Weekends
+M022,Keerthi,UX Researcher,5,"Figma,User Research,UI Design","Design,Technology",Technology,Weekdays
+M023,Nikhil,Cybersecurity Engineer,8,"Linux,Networking,Python","Security,Cloud",Technology,Weekends
+M024,Varsha,Business Analyst,6,"SQL,Excel,Power BI","Business,Products",Finance,Weekdays
+M025,Tejas,Senior Backend Engineer,9,"Python,FastAPI,PostgreSQL","Backend,APIs",Technology,Weekends
+M026,Sanjana,AI Researcher,7,"Python,ML,Statistics","AI,Research",Healthcare,Weekdays
+M027,Abhishek,Cloud Architect,10,"AWS,Docker,Python","Cloud,DevOps",Technology,Weekends
+M028,Riya,Product Manager,5,"SQL,Analytics,Communication","Products,AI",Technology,Weekdays
+M029,Surya,Java Backend Engineer,7,"Java,Spring,SQL","Backend,Enterprise",Technology,Weekends
+M030,Ananya,Data Scientist,3,"Python,Pandas,ML","Data,AI",Healthcare,Weekdays

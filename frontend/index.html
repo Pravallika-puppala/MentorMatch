@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>MentorMatch — Intelligent Mentorship</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+<!-- ======================================================
+     NAVIGATION
+====================================================== -->
+
+<header class="navbar">
+
+    <div class="logo">
+        Mentor<span>Match</span>
+    </div>
+
+    <nav>
+
+        <a href="#home">
+            Home
+        </a>
+
+        <a href="#mentors">
+            Mentors
+        </a>
+
+        <a href="#student-profile">
+            My Profile
+        </a>
+
+    </nav>
+
+    <button
+        class="nav-companion"
+        id="nav-companion-button"
+    >
+        AI Companion
+    </button>
+
+</header>
+
+
+<!-- ======================================================
+     HERO
+====================================================== -->
+
+<main>
+
+<section
+    class="hero"
+    id="home"
+>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            Intelligent mentorship
+        </p>
+
+        <h1>
+            Find the mentor who
+            <span>moves your career forward.</span>
+        </h1>
+
+        <p class="hero-description">
+            MentorMatch uses your goals, skills and interests
+            to connect you with mentors who can help you
+            take your next step.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button
+                class="primary-button"
+                id="hero-find-mentors"
+            >
+                Find My Mentors
+                <span>→</span>
+            </button>
+
+            <a
+                href="#how-it-works"
+                class="secondary-button"
+            >
+                How it works
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- HERO VISUAL -->
+
+    <div class="hero-visual">
+
+        <div class="profile-card">
+
+            <div class="card-top">
+
+                <span class="card-label">
+                    Recommended mentor
+                </span>
+
+                <span class="match-number">
+                    96%
+                </span>
+
+            </div>
+
+
+            <div class="mentor-avatar">
+                R
+            </div>
+
+
+            <h3>
+                Rahul Sharma
+            </h3>
+
+            <p>
+                Senior AI Engineer
+            </p>
+
+
+            <div class="tags">
+
+                <span>AI</span>
+                <span>Python</span>
+                <span>Startups</span>
+
+            </div>
+
+
+            <div class="card-footer">
+
+                <span>
+                    Technology
+                </span>
+
+                <span>
+                    → 
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="floating-note note-one">
+            Skills
+            <strong>+</strong>
+            Goals
+        </div>
+
+
+        <div class="floating-note note-two">
+            Personalized
+            <strong>↗</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     HOW IT WORKS
+====================================================== -->
+
+<section
+    class="how-section"
+    id="how-it-works"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            How it works
+        </p>
+
+        <h2>
+            Less searching.
+            More meaningful connections.
+        </h2>
+
+    </div>
+
+
+    <div class="steps">
+
+        <div class="step-card">
+
+            <span class="step-number">
+                01
+            </span>
+
+            <h3>
+                Build your profile
+            </h3>
+
+            <p>
+                Tell MentorMatch about your skills,
+                goals, interests and experience.
+            </p>
+
+        </div>
+
+
+        <div class="step-card">
+
+            <span class="step-number">
+                02
+            </span>
+
+            <h3>
+                Get matched
+            </h3>
+
+            <p>
+                Our recommendation engine compares
+                your profile with available mentors.
+            </p>
+
+        </div>
+
+
+        <div class="step-card">
+
+            <span class="step-number">
+                03
+            </span>
+
+            <h3>
+                Understand your match
+            </h3>
+
+            <p>
+                See why each mentor may be relevant
+                to your career direction.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ======================================================
+     STUDENT PROFILE
+====================================================== -->
+
+<section
+    class="profile-section"
+    id="student-profile"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            01 — Your profile
+        </p>
+
+        <h2>
+            Tell us where you're headed.
+        </h2>
+
+        <p>
+            We'll use your profile to find mentors
+            whose experience aligns with your goals.
+        </p>
+
+    </div>
+
+
+    <form
+        class="profile-form"
+        id="student-profile-form"
+    >
+
+
+        <!-- NAME -->
+
+        <div class="form-group">
+
+            <label for="student-name">
+                Name
+            </label>
+
+            <input
+                type="text"
+                id="student-name"
+                placeholder="Your name"
+                required
+            >
+
+        </div>
+
+
+        <!-- CAREER GOAL -->
+
+        <div class="form-group">
+
+            <label for="career-goal">
+                Career Goal
+            </label>
+
+            <input
+                type="text"
+                id="career-goal"
+                placeholder="e.g. AI Engineer"
+                required
+            >
+
+        </div>
+
+
+        <!-- SKILLS -->
+
+        <div class="form-group">
+
+            <label for="skills">
+                Skills
+            </label>
+
+            <input
+                type="text"
+                id="skills"
+                placeholder="e.g. Python, ML, SQL"
+                required
+            >
+
+            <small>
+                Separate multiple skills with commas.
+            </small>
+
+        </div>
+
+
+        <!-- INTERESTS -->
+
+        <div class="form-group">
+
+            <label for="interests">
+                Interests
+            </label>
+
+            <input
+                type="text"
+                id="interests"
+                placeholder="e.g. AI, Startups"
+                required
+            >
+
+            <small>
+                Separate multiple interests with commas.
+            </small>
+
+        </div>
+
+
+        <!-- EXPERIENCE -->
+
+        <div class="form-group">
+
+            <label for="experience-level">
+                Experience Level
+            </label>
+
+            <select
+                id="experience-level"
+                required
+            >
+
+                <option value="">
+                    Select experience level
+                </option>
+
+                <option value="Beginner">
+                    Beginner
+                </option>
+
+                <option value="Intermediate">
+                    Intermediate
+                </option>
+
+                <option value="Advanced">
+                    Advanced
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- INDUSTRY -->
+
+        <div class="form-group">
+
+            <label for="preferred-industry">
+                Preferred Industry
+            </label>
+
+            <input
+                type="text"
+                id="preferred-industry"
+                placeholder="e.g. Technology"
+                required
+            >
+
+        </div>
+
+
+        <!-- AVAILABILITY -->
+
+        <div class="form-group">
+
+            <label for="availability">
+                Availability
+            </label>
+
+            <input
+                type="text"
+                id="availability"
+                placeholder="e.g. Weekends"
+                required
+            >
+
+        </div>
+
+
+        <!-- SUBMIT -->
+
+        <button
+            type="submit"
+            class="primary-button profile-submit"
+            id="find-my-mentors"
+        >
+
+            Find My Mentors
+
+            <span>
+                →
+            </span>
+
+        </button>
+
+
+        <p
+            class="form-status"
+            id="form-status"
+        ></p>
+
+    </form>
+
+</section>
+
+
+<!-- ======================================================
+     TOP 5 MENTORS
+====================================================== -->
+
+<section
+    class="mentors-section"
+    id="mentors"
+>
+
+    <div class="section-heading mentor-heading">
+
+        <div>
+
+            <p class="eyebrow">
+                02 — Your matches
+            </p>
+
+            <h2>
+                Top 5 mentors for you.
+            </h2>
+
+        </div>
+
+
+        <p id="recommendation-subtitle">
+            Complete your profile to discover your matches.
+        </p>
+
+    </div>
+
+
+    <!-- Dynamic mentor cards will appear here -->
+
+    <div
+        class="mentor-grid"
+        id="mentor-grid"
+    >
+
+        <div class="empty-state">
+
+            <div class="empty-icon">
+                ✦
+            </div>
+
+            <h3>
+                Your recommendations will appear here.
+            </h3>
+
+            <p>
+                Complete your profile above and we'll
+                find your most compatible mentors.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ======================================================
+     AI COMPANION FLOATING BUTTON
+====================================================== -->
+
+<button
+    class="companion-floating-button"
+    id="companion-toggle"
+    aria-label="Open AI Companion"
+>
+
+    <span class="companion-icon">
+        ✦
+    </span>
+
+    <span>
+        AI Companion
+    </span>
+
+</button>
+
+
+<!-- ======================================================
+     AI COMPANION POPUP
+====================================================== -->
+
+<div
+    class="companion-popup"
+    id="companion-popup"
+>
+
+    <div class="companion-header">
+
+        <div>
+
+            <span class="companion-status">
+                ● Online
+            </span>
+
+            <h3>
+                AI Companion
+            </h3>
+
+        </div>
+
+
+        <button
+            id="close-companion"
+            class="close-companion"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        class="chat-messages"
+        id="chat-messages"
+    >
+
+        <div class="message ai-message">
+
+            Hi! I'm your MentorMatch companion.
+            Ask me about your profile or mentor
+            recommendations.
+
+        </div>
+
+    </div>
+
+
+    <div class="chat-input">
+
+        <input
+            type="text"
+            id="companion-input"
+            placeholder="Ask your companion..."
+            autocomplete="off"
+        >
+
+        <button
+            id="send-button"
+            type="button"
+        >
+            ↑
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="logo">
+        Mentor<span>Match</span>
+    </div>
+
+    <p>
+        Intelligent mentorship for the next generation.
+    </p>
+
+    <span>
+        © 2026 MentorMatch
+    </span>
+
+</footer>
+
+
+<!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
