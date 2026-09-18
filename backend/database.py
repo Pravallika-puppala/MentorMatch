@@ -1,18 +1,21 @@
+import os
 import psycopg2
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # Connect to PostgreSQL
 def get_connection():
     connection = psycopg2.connect(
-        host="localhost",
-        database="mentormatch",
-        user="postgres",
-        password="Vbit@123",
-        port="5432"
+        host=os.getenv("POSTGRES_HOST"),
+        database=os.getenv("POSTGRES_DB"),
+        user=os.getenv("POSTGRES_USER"),
+        password=os.getenv("POSTGRES_PASSWORD"),
+        port=os.getenv("POSTGRES_PORT")
     )
 
     return connection
-
 
 # Get all students
 def get_students():
