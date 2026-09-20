@@ -172,7 +172,7 @@ Retrieve profile / recommendations
         ↓
 Generate practical response
 `
- 🛠️ Tech Stack
+  Tech Stack
 
 ### Backend
 
@@ -370,7 +370,7 @@ The AI Companion uses the student's available profile and recommendation informa
 
 ---
 
-# 🤖 Machine Learning Model
+ Machine Learning Model
 
 The project uses a Random Forest classifier as the initial recommendation model.
 
@@ -411,7 +411,7 @@ The API loads the trained model during startup instead of retraining it for ever
 
 ---
 
-# 📊 Recommendation Approach
+Recommendation Approach
 
 The system currently uses synthetic training labels generated from a weighted compatibility rule.
 
@@ -432,7 +432,7 @@ This would allow the recommendation model to learn from actual user behavior.
 
 ---
 
-# 🔐 Security
+ Security
 
 Sensitive credentials are stored in environment variables rather than source code.
 
@@ -460,7 +460,7 @@ __pycache__/
 
 ---
 
-# 🐳 Docker
+ Docker
 
 The backend can be packaged into a Docker image.
 
@@ -494,7 +494,7 @@ Docker Compose
 
 ---
 
-# 🚀 Running Locally
+ Running Locally
 
 ## 1. Clone the repository
 
@@ -576,7 +576,7 @@ The frontend communicates with the FastAPI backend through REST APIs.
 
 ---
 
-# 🐳 Running with Docker Compose
+ Running with Docker Compose
 
 Make sure Docker Desktop is running.
 
@@ -607,7 +607,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 🎨 Frontend
+Frontend
 
 The frontend was intentionally built without React.
 
@@ -631,7 +631,7 @@ The design follows a retro-futuristic startup aesthetic with a warm cream backgr
 
 ---
 
-# 🧪 Testing
+ Testing
 
 The application can be tested through FastAPI Swagger:
 
@@ -663,7 +663,7 @@ The full application flow can also be tested directly through the frontend.
 
 ---
 
-# 🚧 Current Limitations
+Current Limitations
 
 MentorMatch is currently an MVP.
 
@@ -681,7 +681,7 @@ These features could be introduced after collecting real platform interaction da
 
 ---
 
-# 🔮 Future Improvements
+Future Improvements
 
 Potential future improvements include:
 
@@ -699,7 +699,7 @@ Potential future improvements include:
 
 ---
 
-# 💡 What I Learned Building MentorMatch
+ What I Learned Building MentorMatch
 
 This project brought together multiple parts of an end-to-end AI application:
 
