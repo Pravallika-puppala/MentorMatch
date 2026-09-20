@@ -720,29 +720,3 @@ This project brought together multiple parts of an end-to-end AI application:
 
 ---
 
-# 👩‍💻 Author
-
-**Pravallika Puppala**
-
-B.Tech Computer Science & Data Science
-
-Interested in:
-
-* Artificial Intelligence
-* Machine Learning
-* Generative AI
-* Backend Engineering
-* AI-powered Applications
-
----
-
-## ⭐ Project
-
-MentorMatch was built as an end-to-end AI/ML application combining **Machine Learning recommendations, Generative AI, FastAPI, PostgreSQL, and Docker** into a single platform.
-
-```
-
-**This version is ready to paste directly into `README.md`.**
-
-One thing: I intentionally **didn't put a fake live-demo link, fake deployment URL, or fake metrics** in it. Once we deploy MentorMatch, we can add the real **Live Demo** and **API** links at the top.
-```
